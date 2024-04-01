@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3</title>
+</head>
+<body>
+<script>
+    let m = parseInt(prompt("Введите номер месяца:"));
+    let season;
+    if (m >= 1 && m <= 12) {
+        if (m >= 3 && m <= 5) {
+            season = "весна";
+        } else if (m >= 6 && m <= 8) {
+            season = "лето";
+        } else if (m >= 9 && m <= 11) {
+            season = "осень";
+        } else {
+            season = "зима";
+        }
+        document.write("Время года: " + season);
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4</title>
+</head>
+<body>
+<script>
+  let n1 = parseFloat(prompt("Введите первое число:"));
+  let n2 = parseFloat(prompt("Введите второе число:"));
+  let operator = prompt("Введите оператор (+, -, *, /):");
+
+  let result;
+  switch (operator) {
+        case "+":
+            r = n1 + n2;
+            break;
+        case "-":
+            r = n1 - n2;
+            break;
+        case "*":
+            r = n1 * n2;
+            break;
+        case "/":
+            if (n2 !== 0) {
+                r = num1 / num2;
+            } else {
+                r = "Ошибка: деление на ноль";
+            }
+            break;
+    }
+
+  document.write("Результат: " + r);
+</script>
+</body>
+</html>

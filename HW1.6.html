@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6</title>
+</head>
+<body>
+<script>
+    let d = parseInt(prompt("Введите порядковый номер дня недели (от 1 до 7):"));
+    let plan;
+
+    switch (d) {
+        case 1:
+            plan = "Понедельник:Учеба";
+            break;
+        case 2:
+            plan = "Вторник: Учеба";
+            break;
+        case 3:
+            plan = "Среда: Учеба";
+            break;
+        case 4:
+            plan = "Четверг: Учеба";
+            break;
+        case 5:
+            plan = "Пятница: Учеба";
+            break;
+        case 6:
+            plan = "Суббота:Отдых";
+            break;
+        case 7:
+            plan = "Воскресенье: Отдых";
+            break;
+    }
+
+    document.write("План на день: " + plan);
+</script>
+</body>
+</html>
